@@ -1,4 +1,4 @@
-# aws_automated_backup
+# AWS Automated Backup
 UNIX-Based script for backing up AWS instances using EC2 Snapshot service. Can be used with Cygwin.
 
 This script allows to backup your EC2 instances, based on EC2 tags. To use it, just edit the variables on the script and program a perodic job with the script using Cron, Scheduled Tasks or any other program you like.
