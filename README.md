@@ -9,7 +9,7 @@ The configurable constants are the following:
 <b>TAGNAME</b> -> Tag name you selected to distinguish a specific group of instances.<br/>
 <b>ENVIRONMENT</b> -> Value for the selected tag name.<br/>
 <b>OWN_ID</b> -> Your AWS Owner ID. Intended to be used with describe-snapshots AWS CLI command.<br/>
-<b>MAX_SNAPSHOTS</b> -> Select the maximum number of snapshots to be stored. When the script execution detects more than 10 snapshot, it will automatically delete the older ones until it reaches a total of 10.<br/>
+<b>MAX_SNAPSHOTS</b> -> Select the maximum number of snapshots to be stored. When the script execution detects more than "MAX_SNAPSHOTS" snapshots, it will automatically delete the older ones until it reaches a total of "MAX_SNAPSHOTS".<br/>
 
 <b>Its mandatory to have installed the AWS CLI utility on the system where the script will be executed. Also, it's needed to have your AWS Credentials configured on AWS CLI before running the script. </b>
 
